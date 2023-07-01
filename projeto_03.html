@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="projeto_03.css">
+    <title>ÓTICAS VERSA</title>
+</head>
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+            <div class="container">
+                <h1 class="navbar-brand m-0">
+                    ÓTICAS VERSA
+                </h1>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                    <ul class="nav nav-pills d-block d-md-flex">
+                        <li class="nav-item fw-bold">
+                            <a href="#sobre" class="nav-link active">
+                                <i class="bi bi-house-door me-1"></i>
+                                Sobre Nós
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#lentes" class="nav-link">
+                                <i class="bi bi-sunglasses me-1"></i>
+                                Lentes
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#armacoes" class="nav-link">
+                                <i class="bi bi-eyeglasses me-1"></i>
+                                Armações
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#fale-conosco" class="nav-link">
+                                <i class="bi bi-calendar-check me-1"></i>
+                                Agende sua Visita
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section>
+            <div class="carousel slide text-center" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="h-200" src="http://via.placeholder.com/1700x750"></img>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="h-200" src="http://via.placeholder.com/1700x750"></img>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="h-200" src="http://via.placeholder.com/1700x750"></img>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5" id="sobre">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 mt-md-0">
+                            <img class="d-block w-100 roudend" src="https://www.conexaoparis.com.br/wp-content/uploads/2014/12/01jimmyfairly.jpg"></img>
+                        </div>
+                        <div class="col-md-6 mt-2">
+                            <h2 class="section-title">Sobre a <span>Óticas Versa</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium illum voluptatum blanditiis, iure assumenda maiores corrupti alias impedit in vero? Quibusdam velit nulla quam eaque ipsam consectetur, distinctio quasi ea!
+                            </p>
+                            <ul>
+                                <li>item 1</li>
+                                <li>item 2</li>
+                                <li>item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="lentes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Lentes <span>Especiais</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="http://via.placeholder.com/300x300" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title"><span>Filtro Azul</span></h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, maiores veniam voluptate quis officia eius iusto cumque libero voluptates, repellat ea rem saepe magni, maxime nostrum minus perferendis. Repellat, itaque.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="http://via.placeholder.com/300x300" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title"><span>Foto Sensível</span></h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quidem sequi tempore animi sapiente quos consequuntur, debitis aliquam quasi illum ex, vel perferendis quas impedit tenetur velit voluptas? Quo, maiores?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="http://via.placeholder.com/300x300" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title"><span>Blue-Control</span></h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero ea nesciunt error quod soluta aliquid omnis deserunt optio consequatur quibusdam quam, at veritatis, cum maiores iusto neque facere illo alias.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="armacoes">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <h2 class="section-title text-center"><span>Armações</span></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-armacoes">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#armacoes-femininas" class="fw-bold fs-25 text-start nav-link text-colored active">Feminino</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#armacoes-masculinas" class="fw-bold fs-25 text-start nav-link text-colored">Masculino</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#armacoes-unisex" class="fw-bold fs-25 text-start nav-link text-colored">Unisex</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#acessorios" class="fw-bold fs-25 text-start nav-link text-colored">Acessórios</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="armacoes-femininas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored">Gatinho</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, numqu</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored">Trasparentex</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit minima un</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored" >Aparafusados</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab perspiciatis qu</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored" >Coleção</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab perspiciatis qu</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="armacoes-masculinas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored">Quadrados</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, numqu</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored">Arredondados</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit minima un</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored" >Discreto</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab perspiciatis qu</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored" >Aparafusados</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab perspiciatis qu</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored" >Coleção</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab perspiciatis qu</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="armacoes-unisex">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored">Quadrados</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, numqu</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored">Arredondados</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit minima un</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored" >Discreto</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab perspiciatis qu</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored" >Aparafusados</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab perspiciatis qu</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored" >Coleção</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab perspiciatis qu</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="acessorios">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored">Relógios Maculinos</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, numqu</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored">Relógios Femininos</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit minima un</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored" >Brincos</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab perspiciatis qu</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored" >Colares</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab perspiciatis qu</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored" >Pulceiras</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab perspiciatis qu</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored" >Aneis</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab perspiciatis qu</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="http://via.placeholder.com/200x150" alt="">
+                                        <h5 class="mt-2 text-center section-title text-colored" >Tiaras</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab perspiciatis qu</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div clsass="row">
+                    <h2 class="text-center section-title">Fale <span>Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu Nome</label>
+                                <input type="text" id="nome" class="form-control" required></input>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">E-mail</label>
+                                <input type="email" id="emaik" class="form-control" required></input>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control"></input>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Mande uma Mensagem</label>
+                                <textarea class="form-control" id="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="bnt fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5 mt-3">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua Grande, Edifício Duas Nações - São Luís, MA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
